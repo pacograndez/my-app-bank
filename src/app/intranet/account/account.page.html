@@ -1,0 +1,25 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar>
+    <ion-title>Mis Cuentas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+  <ng-container *ngFor="let account of accounts">
+    <div style="padding: 4%">
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="assets/icon/card-outline.svg">
+        </ion-avatar>
+        <ion-label>
+          <h2>{{account?.accountType}}</h2>
+          <p>{{account?.accountNumber}}</p>
+        </ion-label>
+        <ion-label class="ion-text-end">
+          <h2><span>{{account?.accountCurrency}}</span> {{account?.accountAmount | number: '.2-2'}}</h2>
+          <p>Saldo disponible</p>
+        </ion-label>
+      </ion-item>
+    </div>
+  </ng-container>
+</ion-content>

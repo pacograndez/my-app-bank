@@ -1,0 +1,19 @@
+<ion-content class="ion-text-center">
+  <div class="logo-name">
+    <h1>TODO1 <br> Bank</h1>
+  </div>
+
+  <div class="login-form">
+    <form [formGroup]="form">
+      <ion-item>
+        <ion-label position="floating">Usuario</ion-label>
+        <ion-input type="text"  formControlName="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" formControlName="password" maxLength="6"></ion-input>
+      </ion-item>
+      <ion-button type="submit" block (click)="onSubmit()" [disabled]="form.invalid">Iniciar sesión</ion-button>
+    </form>
+  </div>
+</ion-content>

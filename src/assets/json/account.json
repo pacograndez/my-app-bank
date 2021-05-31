@@ -1,0 +1,84 @@
+{
+  "body": [
+    {
+      "accountId": 0,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121663-0-28",
+      "accountAmount": "6000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 1,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121553-0-28",
+      "accountAmount": "5000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 2,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121443-0-28",
+      "accountAmount": "4000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 3,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121333-0-28",
+      "accountAmount": "3000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 4,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121223-0-28",
+      "accountAmount": "2000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 5,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121113-0-28",
+      "accountAmount": "1000",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 6,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1121003-0-28",
+      "accountAmount": "500",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 7,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1131663-0-28",
+      "accountAmount": "250",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 8,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1141663-0-28",
+      "accountAmount": "125",
+      "accountCurrency": "USD"
+    },
+    {
+      "accountId": 9,
+      "userId": "",
+      "accountType": "Cuenta de Ahorros",
+      "accountNumber": "193-1151663-0-28",
+      "accountAmount": "62.5",
+      "accountCurrency": "USD"
+    }
+  ]
+}

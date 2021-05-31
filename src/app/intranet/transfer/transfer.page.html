@@ -1,0 +1,34 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar>
+    <ion-title>Operaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+  <div style="padding: 5%">
+    <form [formGroup]="form">
+      <ion-item>
+        <ion-label position="floating">Cuenta de Origen</ion-label>
+        <ion-select (ionChange)="onChangeFirstSelect($event)" formControlName="accountOrigin">
+          <ng-container *ngFor="let account of selectOpts">
+            <ion-select-option [value]="account?.accountId">{{account?.accountNumber}}</ion-select-option>
+          </ng-container>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Cuenta de Destino</ion-label>
+        <ion-select formControlName="accountDestine">
+          <ng-container *ngFor="let account of selectOpts2">
+            <ion-select-option [value]="account?.accountId">{{account?.accountNumber}}</ion-select-option>
+          </ng-container>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Monto</ion-label>
+        <ion-input type="text" name="amount" formControlName="amount"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="onTransferAmount()" [disabled]="form.invalid" style="margin-top: 3rem;">Transferir</ion-button>
+    </form>
+  </div>
+</ion-content>
